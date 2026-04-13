@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/Scripts/python -c \"import app\")",
+      "Bash(venv/Scripts/python app.py)",
+      "Bash(venv/Scripts/pip show:*)",
+      "Bash(venv/Scripts/pip list:*)",
+      "Bash(venv/Scripts/python -c \"from dash.testing.application_runners import import_app; print\\('ok'\\)\")",
+      "Bash(venv/Scripts/python -c \"import selenium; from selenium import webdriver; from selenium.webdriver.chrome.service import Service; print\\('selenium ok'\\)\")",
+      "Bash(venv/Scripts/pytest test_app.py -v)",
+      "Bash(venv/Scripts/pip install:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\hakim\\OneDrive\\Documents\\Queen Mary University of London\\ECS506U - Software Engineering Project\\mySkills\\quantium-starter-repo"
+    ]
+  }
+}
